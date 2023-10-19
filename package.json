@@ -9,19 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@beskar-labs/use-gamepad-events": "^2.0.5",
     "autoprefixer": "10.4.14",
+    "bufferutil": "^4.0.7",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
+    "lodash.debounce": "^4.0.8",
+    "lodash.isequal": "^4.5.0",
+    "nanoid": "^4.0.2",
     "next": "13.3.4",
     "postcss": "8.4.23",
     "react": "18.2.0",
+    "react-colorful": "^5.6.1",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "roslib": "^1.3.0",
+    "tailwindcss": "3.3.2",
+    "utf-8-validate": "^6.0.3",
+    "zustand": "^4.3.8"
   },
   "devDependencies": {
-    "@types/react": "18.2.0",
+    "@types/lodash.debounce": "^4.0.7",
     "@types/node": "18.16.3",
+    "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
+    "@types/roslib": "^1.3.1",
     "typescript": "5.0.4"
   }
 }
